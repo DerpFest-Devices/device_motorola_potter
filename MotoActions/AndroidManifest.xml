@@ -109,7 +109,6 @@
             android:theme="@style/MotoActions"
             android:exported="true">
         </activity>
-
-    </application>
+       </application>
 
 </manifest>

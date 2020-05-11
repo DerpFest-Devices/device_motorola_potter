@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
-** Copyright 2014, The Android Open Source Project
 ** Copyright 2020, ronaxdevil <pratabidya.007@gmail.com>
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
@@ -22,14 +21,12 @@
               android:orientation="vertical"
               android:layout_height="match_parent"
               android:layout_width="match_parent">
-  
+       
     <ImageView
-        android:id="@+id/fpgesture_pic"
+        android:id="@+id/motoactions_pic"
         android:layout_width="match_parent"
         android:layout_height="160dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/fpgesture_png" />
-
-    <include layout="@layout/switch_bar" />
+        android:src="@drawable/motoactions_png" />
 
 </LinearLayout>

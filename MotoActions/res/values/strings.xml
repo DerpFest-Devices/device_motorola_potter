@@ -23,13 +23,16 @@
     <!-- Device gestures -->
     <string name="device_gestures_title">Device gestures</string>
     <string name="device_gesturess_summary">Manage device gestures</string>
+    <string name="gesture_header_summery">Control your phone with simple gesture</string>
 
     <!-- Ambient display gestures -->
     <string name="ambient_display_manage_summary">Manage ambient display gestures</string>
+    <string name="doze_header_summery">Never miss a notification even if your screen is off</string>
 
     <!-- Fingerprint gestures -->
     <string name="fingerprint_gestures_title">Fingerprint gestures</string>
     <string name="fingerprint_gestures_summary">Use fingerprint gestures</string>
+    <string name="fingerprint_header_summery">Use your finger to do things you never imagined</string>
     <string name="fingerprint_gestures_manage_summary">Manage fingerprint gestures</string>
     <string name="fingerprint_actions_screenon">Actions with screen on</string>
     <string name="fingerprint_tap_title">Single tap</string>
@@ -73,6 +76,7 @@
     <!-- Screen off gestures -->
     <string name="screen_off_gestures_title">Screen off gestures</string>
     <string name="screen_off_gestures_manage_summary">Manage gestures when screen is off</string>
+    <string name="screen_off_header_summery">Fast access to your moto even if screen is off</string>
     <string name="screen_off_gestures_swipe_left_title">Swipe left</string>
     <string name="screen_off_gestures_swipe_left_dlg_title">Select action for swipe left</string>
     <string name="screen_off_gestures_swipe_right_title">Swipe right</string>
@@ -100,6 +104,7 @@
     <string name="sound_title">Dirac</string>
     <string name="dirac_title">Dirac sound enhancer</string>
     <string name="dirac_summary">Optimize audio quality</string>
+    <string name="dirac_header_summery">Enhance your music experience like never before</string>
     <string name="dirac_headset_title">Choose headphone type</string>
     <string name="dirac_preset_title">Choose a preset</string>
 
@@ -149,6 +154,7 @@
     <!-- Kcal -->
     <string name="kcal_title">Display Calibration</string>
     <string name="kcal_summary">Display color calibration</string>
+    <string name="kcal_header_summery">Calibrate your display to the color that suits you best</string>
     <string name="kcal_enabled_title">Enable KCAL</string>
     <string name="kcal_enabled_summary">Turn on display calibration</string>
     <string name="kcal_red">Red</string>

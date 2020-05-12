@@ -22,11 +22,15 @@
               android:layout_height="match_parent"
               android:layout_width="match_parent">
        
-    <ImageView
-        android:id="@+id/motoactions_pic"
-        android:layout_width="match_parent"
-        android:layout_height="160dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/motoactions_png" />
+    <TextView
+            android:id="@+id/actions_header"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/motoactions_png"
+            android:paddingTop="115dp"
+            android:text="@string/actions_header_title"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </LinearLayout>

@@ -22,13 +22,17 @@
               android:orientation="vertical"
               android:layout_height="match_parent"
               android:layout_width="match_parent">
-  
-    <ImageView
-        android:id="@+id/ambient_pic"
-        android:layout_width="match_parent"
-        android:layout_height="160dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/ambient_png" />
+ 
+    <TextView
+            android:id="@+id/doze_header"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/ambient_png"
+            android:paddingTop="130dp"
+            android:text="@string/doze_header_summery"
+            android:textColor="#FFFFFF"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
 
     <include layout="@layout/switch_bar" />
 

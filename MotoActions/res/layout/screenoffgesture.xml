@@ -22,11 +22,15 @@
               android:layout_height="match_parent"
               android:layout_width="match_parent">
        
-    <ImageView
-        android:id="@+id/screenoff_pic"
-        android:layout_width="match_parent"
-        android:layout_height="160dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/screenoff_png" />
+    <TextView
+            android:id="@+id/screenoff_header"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/screenoff_png"
+            android:paddingTop="130dp"
+            android:text="@string/screen_off_header_summery"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
 
 </LinearLayout>

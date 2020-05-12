@@ -22,11 +22,15 @@
               android:layout_height="match_parent"
               android:layout_width="match_parent">
        
-    <ImageView
-        android:id="@+id/gesture_pic"
-        android:layout_width="match_parent"
-        android:layout_height="160dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/gesture_png" />
+    <TextView
+            android:id="@+id/gesture_header"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/gesture_png"
+            android:paddingTop="130dp"
+            android:text="@string/gesture_header_summery"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
 
 </LinearLayout>

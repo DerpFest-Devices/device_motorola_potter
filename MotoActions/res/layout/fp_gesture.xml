@@ -23,12 +23,16 @@
               android:layout_height="match_parent"
               android:layout_width="match_parent">
   
-    <ImageView
-        android:id="@+id/fpgesture_pic"
-        android:layout_width="match_parent"
-        android:layout_height="160dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/fpgesture_png" />
+    <TextView
+            android:id="@+id/fpgesture_header"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/fpgesture_png"
+            android:paddingTop="130dp"
+            android:text="@string/fingerprint_header_summery"
+            android:textColor="#FFFFFF"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
 
     <include layout="@layout/switch_bar" />
 

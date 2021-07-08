@@ -17,29 +17,21 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/motorola/potter/full_potter.mk)
 
-# Inherit some common DU stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-
-# PixelGApps
-$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
-
-#PE Props
-TARGET_GAPPS_ARCH := arm64
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_GOOGLE_RECORDER := false
-TARGET_INCLUDE_STOCK_ARCORE := false
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
-# TWRP theme
-TW_THEME := portrait_hdpi
+# Inherit some common Xtended stuff.
+$(call inherit-product, vendor/xtended/config/common.mk)
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := potter
-PRODUCT_NAME := aosp_potter
+PRODUCT_NAME := xtended_potter
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := potter
 
-TARGET_FACE_UNLOCK_SUPPORTED = true
-CUSTOM_BUILD_TYPE=OFFICIAL
+#Boot animation 
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# TWRP theme
+TW_THEME := portrait_hdpi
+

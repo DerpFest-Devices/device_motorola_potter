@@ -27,6 +27,13 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model
 
+#PE Props
+TARGET_GAPPS_ARCH := arm64
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := potter
 PRODUCT_NAME := aosp_potter

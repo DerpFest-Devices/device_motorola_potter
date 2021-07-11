@@ -34,6 +34,10 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ARCORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
+#PEX
+PEX_BUILD_TYPE := OFFICIAL
+PEX_MAINTAINER := leoxsys
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := potter
 PRODUCT_NAME := aosp_potter
@@ -41,7 +45,7 @@ PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := potter
 
-#Boot animation 
+#Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # TWRP theme

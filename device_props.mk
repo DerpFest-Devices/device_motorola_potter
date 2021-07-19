@@ -355,7 +355,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # UI
 PRODUCT_PROPERTY_OVERRIDES += \
-    sys.use_fifo_ui=1
+    sys.use_fifo_ui=1 
 
 # Tweak the memory management of the device, enable more background apps.. etc..
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -369,9 +369,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.sdha_apps_bg_max=64 \
     ro.config.sdha_apps_bg_min=8
 
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.ppui.device_name=potter \
-ro.ppui.version=3.4 \
-ro.ppui.version_code=Onyx \
-ro.ppui.is_official=true \
-ro.ppui.maintainer_name=zjunior06
+# Venom
+ro.surface_flinger.running_without_sync_framework=true
+
+# DHA Tunning
+ro.config.dha_tunnable=1
+
+# Smoothens UI
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
+

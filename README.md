@@ -19,4 +19,4 @@ Camera  | 12 MP, 2150 x 1440 pixels, laser focus, dual flash LED
 
 Copyright 2017 - The LineageOS Project.
 
-![Moto G5 Plus](https://www.pngkey.com/png/full/175-1756672_moto-g5-plus-motorola-moto-g5-plus-lunar.png "Moto G5 Plus")
+![Moto G5 Plus](https://user-images.githubusercontent.com/86662074/126271999-06e760e3-78cf-4b68-a185-5a9d5b895f0e.jpg "Moto G5 Plus")

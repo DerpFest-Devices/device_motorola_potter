@@ -60,6 +60,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qualcomm.bluetooth.map=true \
     persist.bt.enableAptXHD=true \
 
+# Blurs
+ro.surface_flinger.supports_background_blur=1
+
 # FM
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.hw.fm.init=0

@@ -61,8 +61,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.bt.enableAptXHD=true \
 
 # Blurs
-ro.surface_flinger.supports_background_blur=1
-persist.sys.sf.disable_blurs=1
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.surface_flinger.supports_background_blur=1 \
+persist.sys.sf.disable_blurs=1 \
 ro.sf.blurs_are_expensive=1
 
 # FM
@@ -375,12 +376,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.sdha_apps_bg_min=8
 
 # Venom
+PRODUCT_PROPERTY_OVERRIDES += \
 ro.surface_flinger.running_without_sync_framework=true
 
 # DHA Tunning
+PRODUCT_PROPERTY_OVERRIDES += \
 ro.config.dha_tunnable=1
 
 # Smoothens UI
-persist.service.lgospd.enable=0
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.service.lgospd.enable=0 \
 persist.service.pcsync.enable=0
 

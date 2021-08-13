@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="maintainer">Maintainers</string>
+    <string name="maintainer">Maintainer</string>
     <string name="maintainer_name">leoxsys</string>
 
 </resources>

@@ -27,9 +27,10 @@ $(call inherit-product, vendor/derp/config/common.mk)
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model
 
-#Derpfest Props
+# Derpfest Props
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 720
+DERP_BUILDTYPE := Official
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_STOCK_ARCORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
@@ -40,9 +41,6 @@ PRODUCT_NAME := derp_potter
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := potter
-
-#Boot animation
-TARGET_BOOT_ANIMATION_RES := 1080
 
 # TWRP theme
 TW_THEME := portrait_hdpi
